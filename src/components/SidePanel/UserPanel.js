@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React from "react";
 import { Grid, Header, Icon, Dropdown, Image } from "semantic-ui-react";
 import firebase from "../../firebase";
 
@@ -44,8 +44,8 @@ class UserPanel extends React.Component {
           <Grid.Row style={{ padding: "1.2em", margin: 0 }}>
             {/* App Header */}
             <Header inverted flaoted="left" as="h2">
-              <Icon name="modx" />
-              <Header.Content>DevChat</Header.Content>
+              <Icon name="react" />
+              <Header.Content>React Chat</Header.Content>
             </Header>
           </Grid.Row>
           {/* User Dropdown */}
@@ -68,3 +68,4 @@ class UserPanel extends React.Component {
 }
 
 export default UserPanel;
+
